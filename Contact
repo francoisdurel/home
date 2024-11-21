@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | François Durel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>François Durel - Contact</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <!-- Contact Content -->
+  <main>
+    <section>
+      <h2>Contact</h2>
+      <p>You can reach me by email at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 François Durel</p>
+  </footer>
+</body>
+</html>
