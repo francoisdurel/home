@@ -1,71 +1,24 @@
-/* General Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background: #f8f8f8;
-}
-
-/* Header */
-header {
-  background: #fff;
-  padding: 10px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-header h1 {
-  font-size: 1.5rem;
-}
-header nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #333;
-}
-header nav a:hover {
-  text-decoration: underline;
-}
-
-/* Artwork Section */
-#artwork {
+/* Style the navigation to appear vertically */
+nav {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-}
-.artwork-item img {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.artwork-item p {
-  margin-top: 5px;
-  font-size: 0.9rem;
-  color: #555;
-}
-
-/* About, CV, and Contact Sections */
-section {
-  padding: 20px;
+  flex-direction: column; /* Stack the links vertically */
+  align-items: flex-start; /* Align the links to the left (optional) */
+  gap: 10px; /* Space between the buttons */
   margin: 20px 0;
 }
-section h2 {
-  font-size: 1.2rem;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-}
-section p, section a {
-  font-size: 0.95rem;
-  color: #333;
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+  padding: 10px 15px; /* Add some padding around the links */
+  background-color: #f4f4f4; /* Add a background color to make them look like buttons */
+  border: 1px solid #ccc; /* Add a border for button-like appearance */
+  border-radius: 5px; /* Round the corners */
+  width: 100%; /* Make the buttons take up the full width of the container (optional) */
+  box-sizing: border-box; /* Prevent padding from affecting width */
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 10px;
-  background: #fff;
-  border-top: 1px solid #ddd;
+nav a:hover {
+  background-color: #ddd; /* Change background on hover for interactivity */
+  color: #000; /* Optional: change text color on hover */
 }
