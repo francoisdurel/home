@@ -1,3 +1,32 @@
+#cv {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#cv h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cv-content h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.cv-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cv-content ul li {
+    margin: 10px 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
 img {
     max-width: 100%; /* Ensures images don't overflow the container */
     height: auto;    /* Keeps the aspect ratio intact */
