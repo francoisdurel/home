@@ -30,7 +30,7 @@
 img {
     max-width: 100%; /* Ensures images don't overflow the container */
     height: auto;    /* Keeps the aspect ratio intact */
-    width: 80px;    /* Sets a default size (adjust as needed) */
+    width: 20px;    /* Sets a default size (adjust as needed) */
 }
 /* Style the navigation to appear vertically */
 nav {
