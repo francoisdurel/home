@@ -28,10 +28,22 @@
     line-height: 1.5;
 }
 img {
-    max-width: 100%; /* Ensures images don't overflow the container */
-    height: auto;    /* Keeps the aspect ratio intact */
-    width: 20px;    /* Sets a default size (adjust as needed) */
+   /* Gallery Images */
+.gallery img {
+  width: 100%; /* Makes images responsive */
+  max-width: 500px; /* Limits the maximum width */
+  height: auto; /* Keeps aspect ratio */
+  margin: 10px; /* Adds spacing between images */
 }
+
+/* Artwork Images */
+.artwork-item img {
+  width: 100%; /* Makes images responsive */
+  max-width: 300px; /* Limits the maximum width */
+  height: auto; /* Keeps aspect ratio */
+  margin: 10px; /* Adds spacing between images */
+}
+
 /* Style the navigation to appear vertically */
 nav {
   display: flex;
