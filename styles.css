@@ -95,3 +95,11 @@ nav a:hover {
   background-color: #ddd;
   color: #000;
 }
+/* Make all images in the main section smaller */
+main img {
+  width: 50%;  /* Makes the image 50% of its original size */
+  height: auto; /* Maintains aspect ratio */
+  margin: 10px auto; /* Adds spacing around the images */
+  display: block; /* Centers the images */
+}
+
