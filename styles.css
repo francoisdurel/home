@@ -1,3 +1,15 @@
+/* Remove bullets from lists */
+#cv ul {
+  list-style-type: none; /* Removes the bullet points */
+  padding: 0;            /* Removes default padding */
+  margin: 0;             /* Removes default margin */
+}
+
+/* Optional: Add spacing and styling for list items */
+#cv ul li {
+  margin-bottom: 10px;   /* Adds spacing between items */
+  line-height: 1.5;      /* Improves readability */
+}
 #cv {
     padding: 20px;
     background-color: #f9f9f9;
