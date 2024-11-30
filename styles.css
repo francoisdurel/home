@@ -101,5 +101,15 @@ main img {
   height: auto; /* Maintains aspect ratio */
   margin: 10px auto; /* Adds spacing around the images */
   display: block; /* Centers the images */
+
 }
+/* Specific styles for main page images */
+main img {
+  width: 33%; /* Makes the image one-third of its container's width */
+  max-width: 300px; /* Ensures the images do not exceed 300px in width */
+  height: auto; /* Maintains aspect ratio */
+  margin: 10px auto; /* Centers and adds spacing between images */
+  display: block; /* Makes images block-level so they align properly */
+}
+
 
