@@ -38,32 +38,37 @@
     margin: 10px 0;
     font-size: 1em;
     line-height: 1.5;
-}
+/* General styles for all images */
 img {
-   /* Gallery Images */
-  /* Scale down images on the main page */
-main img {
-  width: 33%; /* Makes the image one-third of its original width */
-  max-width: 300px; /* Optional: Sets a maximum size to prevent very large images */
-  height: auto; /* Ensures the aspect ratio is maintained */
-  margin: 10px auto; /* Adds some spacing around the images */
-  display: block; /* Centers images in their container */
+  max-width: 100%;
+  height: auto;
 }
 
+/* Specific styles for main page images */
+main > img {
+  width: 33%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+/* Gallery images */
 .gallery img {
-  width: 100%; /* Makes images responsive */
-  max-width: 500px; /* Limits the maximum width */
-  height: auto; /* Keeps aspect ratio */
-  margin: 10px; /* Adds spacing between images */
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 10px;
 }
 
-/* Artwork Images */
+/* Artwork images */
 .artwork-item img {
-  width: 100%; /* Makes images responsive */
-  max-width: 300px; /* Limits the maximum width */
-  height: auto; /* Keeps aspect ratio */
-  margin: 10px; /* Adds spacing between images */
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
 }
+
 
 /* Style the navigation to appear vertically */
 nav {
