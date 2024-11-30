@@ -45,13 +45,14 @@ img {
 }
 
 /* Specific styles for main page images */
-main > img {
-  width: 33%;
+.gallery-img {
+  width: 50%;
   max-width: 300px;
   height: auto;
   margin: 10px auto;
   display: block;
 }
+
 
 /* Gallery images */
 .gallery img {
