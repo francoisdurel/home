@@ -41,6 +41,15 @@
 }
 img {
    /* Gallery Images */
+  /* Scale down images on the main page */
+main img {
+  width: 33%; /* Makes the image one-third of its original width */
+  max-width: 300px; /* Optional: Sets a maximum size to prevent very large images */
+  height: auto; /* Ensures the aspect ratio is maintained */
+  margin: 10px auto; /* Adds some spacing around the images */
+  display: block; /* Centers images in their container */
+}
+
 .gallery img {
   width: 100%; /* Makes images responsive */
   max-width: 500px; /* Limits the maximum width */
