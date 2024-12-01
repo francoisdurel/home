@@ -111,5 +111,13 @@ main img {
   margin: 10px auto; /* Centers and adds spacing between images */
   display: block; /* Makes images block-level so they align properly */
 }
+/* Fullscreen images on the main page */
+.fullscreen-img {
+  width: 100%; /* Makes the image span the entire width of the screen */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Removes inline spacing between images */
+  margin: 0; /* Removes any extra space around images */
+}
+
 
 
